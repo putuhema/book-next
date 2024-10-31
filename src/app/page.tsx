@@ -1,7 +1,12 @@
+import { MainCarousel } from "@/components/main-carousel";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Book Store</h1>
-    </div>
+    <main className="lg:max-w-5xl lg:mx-auto">
+      <MainCarousel />
+      <div className="">
+        <h1>Main Page</h1>
+      </div>
+    </main>
   );
 }

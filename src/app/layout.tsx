@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MainNav />
-        {children}
+        <div className="mt-[7rem]">{children}</div>
       </body>
     </html>
   );
